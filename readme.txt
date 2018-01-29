@@ -1,13 +1,13 @@
-# apache-stats
 ----------------------------------------------------------------------
 
-  Axel pimped the Apache-Status
+  Axel pimped the Apache-status
 
   http://www.axel-hahn.de/apachestatus.php
   http://sourceforge.net/projects/pimpapachestat/
 
   GNU GPL v 3.0
 ----------------------------------------------------------------------
+
 
 ABOUT
   The default apache status shows you information about current Apache 
@@ -42,6 +42,10 @@ INSTALL
   1. Extract the files somewhere below webroot on your webserver. You 
      can put to any subdirectory. It is not a must to have it in the 
      webroot.
+     -- OR --
+     checkout sources with svn client:
+     cd [webroot-directory]
+     svn checkout http://svn.code.sf.net/p/pimpapachestat/code/trunk apachestatus
   2. Allow your server to access the server-status page on the systems 
      you want to monitor
      <Location /server-status> 
@@ -67,5 +71,6 @@ CUSTOMIZATION
       );
 
   If you have a language or a theme to share then send it to me.
+
 
 ----------------------------------------------------------------------
